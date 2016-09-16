@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/ReactiveCocoa/ReactiveCocoa.git',
     :branch => "master"
   }
-  s.dependency 'Result', '~> 2.0'
+  s.dependency 'Result', '~> 3.0'
   s.framework = 'Foundation'
   s.private_header_files = [
     '**/*Private.h',
