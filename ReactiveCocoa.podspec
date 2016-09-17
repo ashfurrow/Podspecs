@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.source = {
     :git => 'https://github.com/ReactiveCocoa/ReactiveCocoa.git',
-    :tag => "v#{s.version}"
+    :branch => "master"
   }
   s.dependency 'Result'
   s.dependency 'ReactiveSwift'
