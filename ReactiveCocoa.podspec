@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
     :tag => "v#{s.version}"
   }
   s.dependency 'Result', '~> 2.0'
+  s.dependency 'ReactiveSwift'
   s.framework = 'Foundation'
   s.private_header_files = [
     '**/*Private.h',
